@@ -1,0 +1,137 @@
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: Open sans;
+    text-shadow: 0px 3px 6px black;
+    text-align: right;
+    color: white;
+    padding-top: 80px; /* Añadir espacio para el nav */
+    margin-top: 60px; /* Añadir margen para separar el header del nav */
+  /* Otros estilos para el header */
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+header h3 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+/*
+.texto {
+    
+    margin: 50px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: blue;
+    padding: 20px;
+
+}*/
+
+
+#donde {
+    text-align: center;
+}
+
+
+#Proxima-Charla {
+    background: #a4452c;
+    padding: 100px;
+    color:white;
+    
+}
+
+#Proxima-Charla .wrapper {
+   width: 800px;
+   margin: auto;
+   
+}
+
+.wrapper img {
+    width: 35%;
+}
+
+.wrapper .texto {
+    width: 60%;
+    margin-left: 4%;
+}
+
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body {
+    
+    color: #000f08;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.oscuro {
+    background-color: #000f08;
+    position: fixed; /* Fija el elemento en la pantalla */
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    top: 0; /* Posición desde arriba */
+    left: 0; /* Posición desde la izquierda */
+    z-index: 1000; /* Establece la superposición del elemento */
+}
+
+.icono {
+    width: 2rem;
+    margin-right: 60px;
+}
+
+.icono svg {
+    fill: #ffffff;
+    
+    width: 40px;
+
+}
+.menu {
+    list-style: none; /* Eliminar los puntos de los elementos de lista */
+    padding: 0; /* Eliminar el relleno predeterminado */
+    margin: 0px; /* Eliminar los márgenes predeterminados */
+  }
+  
+.menu li {
+    display: inline-block; /* Mostrar los elementos de lista en línea */
+  }
+  
+.menu li a {
+    color: white; /* Color de fuente blanco */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+    /*margin-left: 30px;*/
+    padding: 10px 20px; /* Añadir relleno para separar los elementos */
+    display: block; /* Convertir los enlaces en bloques para mejor manipulación */
+  }
+
+#eventos {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:  30px;
+}
+
+.enlinea {
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+footer {
+    font-family: "Open Sans",sans-serif;
+    text-align: center;
+    background: #000f08;
+    color: white;
+    padding: 20px;
+}
+
+i {
+    font-size: 30px;
+}
